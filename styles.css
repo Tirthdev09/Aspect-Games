@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    background-color: #fefecc;
+}
+a {
+    background: #0a131a;
+    background-image: -webkit-linear-gradient(top, #0a131a, #2bb889);
+    background-image: -moz-linear-gradient(top, #0a131a, #2bb889);
+    background-image: -ms-linear-gradient(top, #0a131a, #2bb889);
+    background-image: -o-linear-gradient(top, #0a131a, #2bb889);
+    background-image: linear-gradient(to bottom, #0a131a, #2bb889);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background: #24c799;
+    background-image: -webkit-linear-gradient(top, #24c799, #09161f);
+    background-image: -moz-linear-gradient(top, #24c799, #09161f);
+    background-image: -ms-linear-gradient(top, #24c799, #09161f);
+    background-image: -o-linear-gradient(top, #24c799, #09161f);
+    background-image: linear-gradient(to bottom, #24c799, #09161f);
+    text-decoration: none;
+  }
+  td {
+      border-radius: 25px;
+      transition: 1.1s all;
+      transform: translateX(0px);
+      background-color: white;
+  }
+  td:hover {
+    box-shadow: 5px 5px 8px black;
+    transform: translateX(10px);
+}
+  .asteroids {
+  width: 300px;
+  height: 168px;
+}
+.Contact {
+    background-color: orange;
+    padding: 50px 0 20px;
+}
+.contact_button {
+    background: #11272e;
+    background-image: -webkit-linear-gradient(top, #11272e, #b8952b);
+    background-image: -moz-linear-gradient(top, #11272e, #b8952b);
+    background-image: -ms-linear-gradient(top, #11272e, #b8952b);
+    background-image: -o-linear-gradient(top, #11272e, #b8952b);
+    background-image: linear-gradient(to bottom, #11272e, #b8952b);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contact_button:hover {
+    background: #fc8f3c;
+    background-image: -webkit-linear-gradient(top, #fc8f3c, #061824);
+    background-image: -moz-linear-gradient(top, #fc8f3c, #061824);
+    background-image: -ms-linear-gradient(top, #fc8f3c, #061824);
+    background-image: -o-linear-gradient(top, #fc8f3c, #061824);
+    background-image: linear-gradient(to bottom, #fc8f3c, #061824);
+    text-decoration: none;
+  }
+  p {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  h2 {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  h1 {
+    font-family: 'Ubuntu', sans-serif;
+  }
